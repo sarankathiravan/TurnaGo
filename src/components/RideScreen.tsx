@@ -1,13 +1,12 @@
 import React, { useMemo, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, Navigation2, Sun, Moon, Clock, Route } from 'lucide-react';
+import { ArrowLeft, Navigation2, Sun, Moon } from 'lucide-react';
 import { useGeolocation } from '../hooks/useGeolocation';
 import { useDirections } from '../hooks/useDirections';
 import { useVoice } from '../hooks/useVoice';
 import { useWakeLock } from '../hooks/useWakeLock';
 import TurnArrow from './TurnArrow';
-import SpeedDisplay from './SpeedDisplay';
 import VoiceToggle from './VoiceToggle';
 import RoadBackground from './RoadBackground';
 import type { SelectedDestination } from './SearchInput';
