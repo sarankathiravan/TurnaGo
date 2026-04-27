@@ -19,8 +19,12 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^2.0.2",
     "@types/google.maps": "^3.64.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.11.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.2"
   }
 }
